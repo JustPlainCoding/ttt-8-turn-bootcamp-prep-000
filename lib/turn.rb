@@ -6,3 +6,6 @@ end
 
 def valid_move?
 end
+
+def turn 
+end
