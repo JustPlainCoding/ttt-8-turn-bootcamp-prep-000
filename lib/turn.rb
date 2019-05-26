@@ -4,10 +4,11 @@ end
 def input_to_index(input)
 end
 
-def valid_move?(board, index)
+def valid_move?(index)
 end
 
-move()
+def move(board, index)
+end
 
 def turn()
 end
