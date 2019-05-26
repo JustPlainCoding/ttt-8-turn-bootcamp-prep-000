@@ -1,11 +1,13 @@
-def display_board
+def display_board(board)
 end
 
-def input_to_index
+def input_to_index(input)
 end
 
-def valid_move?
+def valid_move?(board, index)
 end
 
-def turn 
+move()
+
+def turn()
 end
