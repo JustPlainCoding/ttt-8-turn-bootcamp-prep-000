@@ -11,7 +11,10 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
+  
 end
+
+position_valid?
 
 def move(board, index, player = "X")
 end
