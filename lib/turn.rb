@@ -11,12 +11,21 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  
+  if index.between(0,8) && !position_valid(board[index])
+    true
+  end
 end
 
-position_valid?
+def position_valid?(index)
+  if index == "" || index == " " || index == nil
+    true
+  end
+end
 
 def move(board, index, player = "X")
+  if valid_move?(board, index)
+    board[index] = "#{player}"
+  end
 end
 
 def turn(board)
