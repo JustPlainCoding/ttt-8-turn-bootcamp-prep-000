@@ -11,7 +11,7 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  putes position_valid?(board[index])
+  puts position_valid?(board[index])
   if index.between?(0,8) == true && position_valid?(board[index]) == false
     true
   end
