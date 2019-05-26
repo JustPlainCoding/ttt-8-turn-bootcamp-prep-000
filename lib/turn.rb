@@ -10,5 +10,5 @@ end
 def move(board, index)
 end
 
-def turn()
+def turn(board)
 end
