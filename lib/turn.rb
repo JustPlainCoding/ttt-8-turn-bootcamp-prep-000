@@ -11,12 +11,12 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  if index.between?(0,8) && position_valid?(board[index])
+  if index.between?(0,8) && position_empty?(board[index])
     true
   end
 end
 
-def position_valid?(index)
+def position_empty?(index)
   if index == "" || index == " " || index == nil
     true
   end
